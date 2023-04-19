@@ -1,5 +1,6 @@
 FROM ubuntu:20.04
 
+ARG VERSION=v2.14.5
 ENV VERSION=${VERSION}
 
 RUN apt-get update && apt-get install -y curl
